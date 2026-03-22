@@ -15,19 +15,16 @@ if not exist "!GAME!\Zeus.exe" (
     exit /b 1
 )
 
-python --version >nul 2>&1
-if errorlevel 1 (
-    echo [ERROR] Python is not installed.
-    echo Download Python 3.8+ from https://www.python.org/downloads/
-    echo Make sure to check "Add Python to PATH" during installation.
+set DIST=%~dp0
+set PYTHON=!DIST!python\python.exe
+
+if not exist "!PYTHON!" (
+    echo [ERROR] python\python.exe not found in patch folder.
     pause
     exit /b 1
 )
 
-set DIST=%~dp0
-
 echo Game: !GAME!
-echo Patch: !DIST!
 echo.
 
 if exist "!GAME!\Zeus_original.exe" goto skip_backup
@@ -39,12 +36,12 @@ if exist "!GAME!\Model\Zeus eventmsg.txt" copy "!GAME!\Model\Zeus eventmsg.txt" 
 echo [BACKUP] Done
 goto done_backup
 :skip_backup
-echo [BACKUP] Original backup already exists. Skipping.
+echo [BACKUP] Original backup exists. Skipping.
 :done_backup
 
 echo.
 echo [PATCH] Patching EXE for Korean support...
-python "!DIST!patch\patch_korean.py" --input "!GAME!\Zeus_original.exe" --output "!GAME!\Zeus.exe" --font-large "!DIST!patch\fonts\kfont_large_new.bin" --font-small "!DIST!patch\fonts\kfont_small_new.bin"
+"!PYTHON!" "!DIST!patch\patch_korean.py" --input "!GAME!\Zeus_original.exe" --output "!GAME!\Zeus.exe" --font-large "!DIST!patch\fonts\kfont_large_new.bin" --font-small "!DIST!patch\fonts\kfont_small_new.bin"
 if errorlevel 1 (
     echo.
     echo [ERROR] EXE patch failed! Restoring original...
