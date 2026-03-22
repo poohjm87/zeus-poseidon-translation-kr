@@ -1,0 +1,65 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="The Sinking of Atlantis"
+Adventure_Introduction="@POPEN PLAY ADVENTURE
+@LAtlantis is famous for two things: its amazing advancements and its unfortunate demise.  Experience both in this adventure. Because it is an open play adventure, episode goals are easily met, and the last episode has no goals at all! All the decisions are yours!"
+Adventure_Complete="n/a"
+
+Parent_Episode_1_Title="The Golden Age"
+Parent_Episode_1_Introduction="@PAtlantis is the land of plenty.  Multitudes of crops can be grown on its fertile soil, and all sorts of minerals grace its rocky regions.  The ideal city can be built here.  Is Atlantis too good to be true?
+@PWhen you are ready to continue to the next episode, click the 'Goals' button and set aside the required goods.  Be forewarned: Atlantis' wise seers predict that the golden age will not last.  If you do not want mass destruction to be visited upon your city, do not proceed to the next episode."
+Parent_Episode_1_Complete="@PAtlantis is booming, and you have decided to enter into the next stage of Atlantis' history.  Atlantis is soaring high, but those that soar the highest have the farthest to fall."
+Parent_Episode_2_Title="Paradise Lost"
+Parent_Episode_2_Introduction="@PSmall animals are scurrying about in fear: they sense an impending doom.  The seers confirm what the animals sense: a series of disasters will befall Atlantis for the next decade, but a wise ruler will be able to rebuild what the earth would destroy.
+@PWhen you are ready for the final event in Atlantis' history, click the 'Goals' button and set aside the required goods.  Rest assured, however, that no city can survive the cataclysmic events to come in Atlantis' final hours.  If you are faint of heart, do not proceed to the next episode."
+Parent_Episode_2_Complete="@PThere's no going back now.  Though Atlantis has survived the past years of hardship, nothing will survive the coming onslaught."
+Parent_Episode_3_Title="Run for Your Lives!"
+Parent_Episode_3_Introduction="@PSoon, it will be all over!  For decades, Atlantis has been home to an idyllic civilization.  But, nothing lasts forever."
+Parent_Episode_3_Complete="n/a"
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="Colony 1 Title"
+Colony_1_Introduction="@PColony 1 Introduction."
+Colony_1_Complete="@PColony 1 Complete."
+Colony_1_Selection="Colony 1 Selection."
+Colony_2_Title="Colony 2 Title"
+Colony_2_Introduction="@PColony 2 Intro."
+Colony_2_Complete="@PColony 2 Complete"
+Colony_2_Selection="Colony 2 Selection"
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

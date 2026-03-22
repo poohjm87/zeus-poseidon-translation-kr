@@ -1,0 +1,66 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="The Mayan Revolution"
+Adventure_Introduction="@POPEN PLAY ADVENTURE
+@LCut off from the Atlantean mainland, the lonely outpost that you will lead must stand tall in the face of an increasingly hostile world. Because this is an open play adventure, any goals to be met are fairly easy, and the last episode has no goals at all."
+Adventure_Complete="n/a"
+
+Parent_Episode_1_Title="Preparation"
+Parent_Episode_1_Introduction="@PMonths have passed since you last received word from the homeland in Atlantis.  Atlantis has been at war with some Aegean upstarts for some time, but certainly these simple people could never defeat Atlantis.  Some travelers from distant lands speak of a catastrophe on Crimson Isle and on Atlantis and report that entire portions of our fair home continent have sunk beneath the sea.  No matter what has happened to fair Atlantis, the simple truth of the matter is that you must become self-reliant.
+@PHere in Spios, there seems to be trouble afoot.  The Mayans, who have always been docile, eager recipients of Atlantean knowledge and goods, seem changed, somehow.   They have begun to treat us a little rudely, and it is not an uncommon sight to see groups of them huddled together, speaking in low whispers.  When asked to reveal the topic of their quiet, furtive conversation, they claim to be speaking about 'Nothing special.'
+@PAll the signs point to impending danger.  Only fierce soldiers and strong walls will ensure that Spios is safe.
+@PWhen you are ready to move on to the second part of this adventure, click the 'Goals' button and set aside the required goods.  Be forewarned that the relative peace of the episode that you are about to play will be shattered in the second episode."
+Parent_Episode_1_Complete="Spios stands on the precipice of danger.  Though all has been quiet so far, the silence is about to be broken with the shouts of soldiers and the clashing of swords."
+Parent_Episode_2_Title="War"
+Parent_Episode_2_Introduction="@PIt has begun.  All Mayan towns have risen up against us and declared war, and soon, they will launch attack after attack.  Others in the area have taken notice of the Mayan uprising, and there are rumblings that they will side with the Mayans in their revolution.  Spios could be the last Atlantean city left in the world!  For the glory of Atlantis, Spios must be defended at all costs, and the Mayans must be brought back into the kingdom.  "
+Parent_Episode_2_Complete=""
+Parent_Episode_3_Title=""
+Parent_Episode_3_Introduction=""
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title=""
+Colony_1_Introduction=""
+Colony_1_Complete=""
+Colony_1_Selection=""
+Colony_2_Title=""
+Colony_2_Introduction=""
+Colony_2_Complete=""
+Colony_2_Selection=""
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

@@ -1,0 +1,66 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="The Youngest Twins"
+Adventure_Introduction="@POPEN PLAY ADVENTURE
+@LWar between Atlanteans is unheard of, but stranger things have happened.  This Open Play adventure has a military theme. Because it is an open play adventure, episode goals are easily met, and the last episode has no goals at all. Everything is up to you!"
+Adventure_Complete="n/a"
+
+Parent_Episode_1_Title="The Azium Empire"
+Parent_Episode_1_Introduction="@PYour cousin Azaes of Azium is out of hand.  What started out as a rivalry between cousins has escalated to full-scale war.  Azaes destroyed your city of Diapraea and then conquered the kingdoms of Mneussus and Autoch.  Atlanteans are panicking and have turned to you for help.  The other Atlanteans rulers have promised to hold off the warmongering Azaes while you rebuild Diapraea, but Diapraea alone does not have the resources necessary to mount a counter-attack.  If Azaes is to be defeated, a colony with plentiful supplies of bronze and orichalc must be founded.
+@PWhen you are ready to establish the colony, click the 'Goals' button and set aside the required goods."
+Parent_Episode_1_Complete="@PYou have decided to leave Diapraea to set forth and establish a colony.  This colony is the key to ending Azaes' reign of tyranny."
+Parent_Episode_2_Title="The Long Road to Victory"
+Parent_Episode_2_Introduction="@PWhile you were away in Dharkuum, Azaes took advantage of your absence and, through a variety of strong-arm tactics, brought more cities into his evil alliance.  His malevolent influence extends far beyond the borders of Atlantis.  He has smeared your good name with the Oceanids, who have now taken up arms against you.  And, he has reawakened the wrath of the Centaurs, who vow revenge for the past.
+@PThankfully, the wise warrior goddess Athena has taken up your part and has enlisted many of the Olympians to help you.  Build them Sanctuaries, and these gods will do what they can."
+Parent_Episode_2_Complete="n/a"
+Parent_Episode_3_Title=""
+Parent_Episode_3_Introduction=""
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="The Wild Coast"
+Colony_1_Introduction="@PThere's more ore than can be mined here in Dharkuum!  Soon, Refineries and Foundries will be turning out the precious substances that will foil Azaes' evil plans.  But, there are signs in the area that we are not alone here.  It's no shock that the valuable ores would be attractive to others, but hopefully these people will be peaceful.  And, the giant mountain itself seems uneasy, almost as if it doesn't want to give up the ores that decorate its slopes.  There could be trouble.
+@PWhen you are ready to return to Diapraea, click the 'Goals' button and set aside the required goods. "
+Colony_1_Complete="@PNow that there is a steady supply of ores to fuel the war effort, you have decided to return to Diapraea to thwart Azaes once and for all."
+Colony_1_Selection="Shiny orichalc and copper ore dapple the landscape, but the land seems changed since the last time Atlantean scouts were here."
+Colony_2_Title=""
+Colony_2_Introduction=""
+Colony_2_Complete=""
+Colony_2_Selection=""
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

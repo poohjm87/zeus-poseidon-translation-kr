@@ -1,0 +1,68 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="Open Play Military 2"
+Adventure_Introduction="In a matter of minutes, a massive earthquake destroyed all the cities of Greece. The other nations of the world have seized the opportunity to take Greek land for themselves. Can you fend off these rival nations and restore Greece to its former glory?  The last episode of this adventure has no goals, so you can play to your heart's content."
+Adventure_Complete=""
+
+Parent_Episode_1_Title="Rebirth"
+Parent_Episode_1_Introduction="@PThe devastating earthquake is over; yet, the people around the land of Eretria are trembling in fear.  The world has returned to its former state, the way it must have been when Zeus defeated Typhon and first made the world an inhabitable place for mortals.  The people have turned to you to lead them out of this carnage and into a new world, to recapture the lives they once knew.
+@PBut, who else lives in this new world?  We cannot be the only ones to have survived the disaster!  The bravest of the brave have agreed to set out in the wilds of what was once Greece to see which friends - and foes - have survived.
+"
+Parent_Episode_1_Complete="@PUnder your leadership, Eretria has risen up from the broken land and is serving as a welcome refuge to the displaced people of Greece.  Many of your stalwart ambassadors and explorers have reported that other leaders have also begun to rebuild.  Eretria is not alone.
+@PIn many ways, the earthquake that changed Greece forever changed nothing.  Enemies still threaten Greece, seeking to take what is not rightfully theirs.  And, it is still up to you and your allies to rebuff enemy advances.  The time has come to establish a colony to bolster Greek military might and to provide Eretria with the tools of war.  
+"
+Parent_Episode_2_Title="The Road to Glory"
+Parent_Episode_2_Introduction="@PAll the pieces are in place.  With Salamis providing the resources of war, there is nothing stopping you from building a large and powerful military.  Take aim at those with false claims to Greek land, and unleash punishing attacks on them until they release their hold on your country."
+Parent_Episode_2_Complete=""
+Parent_Episode_3_Title=""
+Parent_Episode_3_Introduction=""
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="Resources of Power"
+Colony_1_Introduction="@PA colony at Salamis will serve as the key to unlocking the military strength of Eretria. Salamis will be a helpmate to you as you move to rid Greece of foreign power, both by offering up its resources to the good of Greece and serving as a mighty military base.
+@PAfter you have built Salamis to your liking, click the 'Goals' button and set aside goods for Eretria.  You will then be returned to your home city where you can continue to rid Greece of its enemies.
+"
+Colony_1_Complete="@PThe colony of Salamis will ensure that Eretria is never without a supply of wheat and bronze, the resources that form the backbone of any mighty army.  Hypsipyle will lead this valuable colony on your behalf as you continue on your quest to restore Greece to power."
+Colony_1_Selection="Salamis is a warrior's dream.  The abundant copper ore strewn about the land can be made into the finest armor.  And, the fertile fields yield wheat, the nourishment that keeps war-horses strong."
+Colony_2_Title=""
+Colony_2_Introduction=""
+Colony_2_Complete=""
+Colony_2_Selection=""
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

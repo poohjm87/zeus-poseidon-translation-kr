@@ -1,0 +1,64 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="Open Play Sandbox 2"
+Adventure_Introduction="With its rich and varied resources, Troezan is the perfect spot to build the hub of your great empire.  Heroes from far and near will flock to your city, eager to call it home.  There are no goals to be met in this adventure; everything is up to you!"
+Adventure_Complete=""
+
+Parent_Episode_1_Title="City of Heroes"
+Parent_Episode_1_Introduction="@PAll is well in the world.  With a pair of colonies to call your own and a cadre of allies, you have no shortage of friends.  The beautiful, fertile land that stretches out before you will soon be graced with a city of your own design.  What could be better?
+@PThough all is well in the world, is all well on Olympus?  The gods, being the gods, will still ask favors of you, and a monster or two may be lurking just beyond your city's boundaries.  Luckily, the heroes of Greece know your reputation and will not hesitate to help you should you need them.
+"
+Parent_Episode_1_Complete=""
+Parent_Episode_2_Title=""
+Parent_Episode_2_Introduction=""
+Parent_Episode_2_Complete=""
+Parent_Episode_3_Title=""
+Parent_Episode_3_Introduction=""
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title=""
+Colony_1_Introduction=""
+Colony_1_Complete=""
+Colony_1_Selection=""
+Colony_2_Title=""
+Colony_2_Introduction=""
+Colony_2_Complete=""
+Colony_2_Selection=""
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

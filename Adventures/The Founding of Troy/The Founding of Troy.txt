@@ -1,0 +1,67 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="The Founding of Troy"
+Adventure_Introduction="@POPEN PLAY ADVENTURE
+@LAn impending disaster forces people from their homes in the Atlantean city of Thera.  Lead them to a new land with new opportunities.  Because this is an open play adventure, the goals are easily met, and the last episode of the adventure has no goals."
+Adventure_Complete="N/A"
+
+Parent_Episode_1_Title="The Silver Lining"
+Parent_Episode_1_Introduction="@PThe grim words of the oracle struck fear into the hearts of Atlanteans.  Thera was doomed, and no one on the island would survive.  Faced with the prospect of a disastrous end, a band of Atlanteans decided to leave Thera and establish a new city, a city that would preserve the glory of Atlantis.
+@PWhen you have built the city to your liking and are ready to establish a colony, click the 'Goals' button and set aside the specified goods."
+Parent_Episode_1_Complete="@PTroy will never be truly prosperous until it becomes more self-sufficient.  You have decided to leave Troy for now and establish a colony that will help to supplement Troy's economy."
+Parent_Episode_2_Title="Orphaned"
+Parent_Episode_2_Introduction="@PSorrowful tears fall down the faces of your people.  What the oracle foretold years ago has come to fruition.  Thera has been lost forever, sunk beneath the sea by a massive volcanic eruption.  As the last pillar of this great society, Troy must continue to grow.  
+@PWhen you are ready to found the second colony, click the 'Goals' button and set aside the specified goods."
+Parent_Episode_2_Complete="@PYou have decided that the time has come to found a second colony to make sure that the citizens of Troy always have the goods that they need."
+Parent_Episode_3_Title="Becoming Trojan"
+Parent_Episode_3_Introduction="@PTroy is a beautiful city and, with goods flowing in from colonies and trade partners, is rapidly becoming the most prominent city in the world.  Memories of Thera are fading, and the people of Troy are becoming less and less Atlantean, and more and more Trojan, with each passing day."
+Parent_Episode_3_Complete="n/a"
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="Purple and Gold"
+Colony_1_Introduction="@PThis land is nothing like Troy.  Its abundant meadows are perfectly suited for farming golden wheat and raising tender grapes.
+@PWhen you are ready to return to Troy, click the 'Goals' button and set aside the required goods."
+Colony_1_Complete="@PYou have decided to return home.  The wheat and grapes grown here will be a boon to the residents of Troy."
+Colony_1_Selection="A beautiful island with fertile fields ideal for raising grapes and wheat."
+Colony_2_Title="Green and White"
+Colony_2_Introduction="@PThe land here, though rocky, is also fruitful.  Once this colony is up and running, Troy will never want for olive oil and marble.
+@PWhen you are ready to return to Troy, click the 'Goals' button and set aside the required goods."
+Colony_2_Complete="@PNow that Mount Ida is poised to provide Troy with all the olive oil and marble that it needs, you have decided to return home."
+Colony_2_Selection="This site, located on a rocky mountaintop, is perfect for growing olives."
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

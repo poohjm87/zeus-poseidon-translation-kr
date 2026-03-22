@@ -1,0 +1,62 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="Economic Open Play 2"
+Adventure_Introduction="Athens has its democracy, Sparta has its dual-kingship and Corinth has its tyrants, but you know how best to run a city-state!  Showcase your skills by building an empire based in Lerna!  The last episode in this adventure has no goals, so you can play to your heart's content."
+Adventure_Complete=""
+
+Parent_Episode_1_Title="An Auspicious Beginning"
+Parent_Episode_1_Introduction="Lerna is the ideal place to begin an empire.  Your city will share the land with fish and wild boar, and its abundant fields are well-suited for the cultivation of wheat.  Its rocky hills offer the finest marble and glistening copper ore.  Certainly, no where in the world matches Lerna.@PNo land is perfect, however.  Lerna is lacking a few key resources.  Some of these items can be acquired from others in Greece, though it may take some persistent coddling on your part.  It has been proven time and again, however, that even your staunchest rivals will be like putty in your hands if you lavish them with gifts.@POf course, the best way to supply Lerna with the missing resources is to found a colony.  When you are ready, click the 'Goals' button and set aside sixteen sheaves of wheat for the colony.  You'll then be able to choose a site for your new city."
+Parent_Episode_1_Complete="@PLerna is thriving, but it is time for the city to become more self-sufficient.  With the founding of a colony, Lerna will become an empire!"
+Parent_Episode_2_Title="The Growth of a City-State"
+Parent_Episode_2_Introduction="@PLerna is truly an empire now!  The colony you established will provide much-needed resources and an additional source of revenue.  Life in Lerna is sure to become easier, thanks to the colony!@PStill, it would be useful if Lerna had its own source of the few remaining valuable resources that it lacks.  Founding a second colony is in order.  When you are ready, click the 'Goals' button and set aside sixteen sheaves of wheat for the colony.  You will then be able to proceed to the second colony."
+Parent_Episode_2_Complete="@PYou have decided that you are ready to expand your empire!  Once the second colony is established, Lerna will be unstoppable!"
+Parent_Episode_3_Title="Dominance"
+Parent_Episode_3_Introduction="@PNothing is standing in the way of your success!  Lerna and its daughter cities of Taenarnum and Marathon provide nearly every product any Greek citizen could ever want.  The empire of Lerna is destined to become a legend!"
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="The Woodland"
+Colony_1_Introduction="@PSturdy timber will help to strengthen your treasury, and there may be other sources of wealth on the islands, just waiting to be discovered!  When you are ready to return to Lerna, click the 'Goals' button and set aside sixteen planks of wood."
+Colony_1_Complete="@PThe bustling colony at Marathon will not only provide Lerna with valuable wood, it will also purchase many of the goods that Lerna produces!  With Marathon in the empire, Lerna's coffers will grow by leaps and bounds!"
+Colony_1_Selection="Emerald-green forests decorate the island chain of Marathon.  The wood produced here will turn into riches for Lerna!"
+Colony_2_Title="On Taenarnum Mountain"
+Colony_2_Introduction="@PTaenarnum is a lovely place.  The centerpiece of the region is Taenarnum Mountain, which is adorned with a fertile meadow on its peak.  Sheep and olive trees couldn't ask for a better home.  When you are ready to return to Lerna, click the 'Goals' button and set aside sixteen skeins of fleece and sixteen jugs of olive oil."
+Colony_2_Complete="@PWith Taenarnum built to your liking, you are ready to return to Lerna and continue building your economic strength. "
+Colony_2_Selection="The abundance of meadow here makes the raising of sheep and the planting of olive trees easy."
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

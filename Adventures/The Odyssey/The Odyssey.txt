@@ -1,0 +1,138 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="The Odyssey"
+Adventure_Introduction="The Trojan War is near its end, and Penelope eagerly awaits the return of her husband, Odysseus.  Help her prepare the way for Odysseus to come home."
+Adventure_Complete="My dear cousin,
+@PI thought you would be interested to know how things have been going for the past few months.  Odysseus is still at home and has told me of his great adventures.  He told me how he stuffed his crew's ears with wax and had himself tied to the mast of his ship to escape the Sirens.  He chuckled as he explained the trick he played on the Cyclops to avoid becoming the monster's dinner.  He also told me of the foul Laestrygonians, and of all the old friends he saw in his visit to the Underworld.
+@PThen, he got around to telling me about Calypso and Circe.  Now, when he first came home, I felt truly sorry for him -- ten years is a long time to travel.  My pity soon turned to ire when I found out that eight of these ten years were spent in the company of other women!  Was it really necessary to spend an entire year with Circe?  And who is this small child who visited here from Circe's Island?  I could have sworn I heard the child call Odysseus 'Papa,' but I must have been hearing things!  And, don't get me started on the time he spent with Calypso.  He claims to have been her prisoner, but how bad could it have been?  Why did he wait seven years to finally ask Zeus to order Calypso to let him go?
+@PI suppose, all things considered, that I'm glad to have the big lug home.  He's sworn to mend his ways, and I'm willing to give him a second chance.
+@PThank you again for your invaluable assistance in bringing my husband home.  Your loyalty alone kept my spirits up during the past tribulations.
+@L@LYours,
+@LPenelope"
+
+Parent_Episode_1_Title="The Great War Ends"
+Parent_Episode_1_Introduction="My dear cousin,
+@PThe war has been raging for nearly ten years now, and I sorely miss my husband, our king Odysseus.  I believe that the tide will soon turn for our men, and that Paris, Hector and the rest of that dastardly Trojan lot will meet with defeat.  Soon, Odysseus will be home.
+@PThe war has not been easy on any of us.  Odysseus and his comrades have known great hardship in the battlefields, and we here at home have seen the horrors of war firsthand.  With Ithaca left vulnerable by our king's absence, a marauding band of Trojans destroyed our fair city. 
+@PI want you to help me prepare Ithaca for her king's return. While I busy myself stocking the King's home with the finest luxuries, I want you to call upon your well-known skills and rebuild Ithaca.  Odysseus has looked upon destruction for ten long years; I don't want that sight to greet him upon his return home.  Make sure that Ithaca is a thriving, bustling city that will please the king's eyes.
+@PPlease carry out my request with joy in your heart.  Our king will soon be home!
+@L@LYours,
+@LPenelope"
+Parent_Episode_1_Complete="My dear cousin,
+@PTroy has fallen, and all of its residents have abandoned the city, leaving nothing but ruins!   All in Greece are praising my husband for the ingenious plan that led to Greek victory!  Why anyone would want a huge, wooden horse is beyond me.  Trojans.  When will they ever learn?
+@POdysseus' home is ready for his arrival, and you have worked wonders in Ithaca!  The city is even more beautiful than I had imagined it could be, thanks to your remarkable skills.  I can't wait to see Odysseus' reaction to his kingdom!  He can't get here soon enough! 
+@L@LYours,
+@LPenelope"
+Parent_Episode_2_Title="The Absent Hero"
+Parent_Episode_2_Introduction="My dear cousin,
+@PI am beginning to worry.  Odysseus should have been home by now, and he is not the only one of our noble Greeks missing.  King Menelaus and the beautiful Helen have not returned to Sparta, either, and their home city has collapsed in their absence.
+@PAt least I've had some word of Odysseus' whereabouts, though it is not encouraging.  He was last seen attacking the city of Ismarus, led by Leukos.  Ismarus still stands though, and I tremble at the thought that somehow brave Odysseus was killed in this battle.  I beseech you, send some forces to Ismarus to question Leukos about my dear husband, and then make sure that the foul Trojan can never pose a threat to our fair city.  Agammemnon, our fine general, is still in residence at Tenedos.  Perhaps he may be able to assist us.
+@PIn the meantime, we should hold on to the hope that Odysseus is still alive and do what we can to smooth his journey home.  Please see to it that Hermes' Refuge is built.  Perhaps the fleet-footed god will take pity on my husband and speed his progress.  
+@PI cannot thank you enough for your help in this time of my greatest need.
+@L@LYours,
+@LPenelope"
+Parent_Episode_2_Complete="My dear cousin,
+@PI am well pleased that our forces defeated Leukos of Ismarus!  Now, the only independent Trojan city left is Ascania, but I doubt that they will try to tangle with us.
+@PNonetheless, I am troubled.  None of our heroes, my poor Odysseus included, has found safe passage home.  King Menelaus and Helen have landed in Egypt and, for reasons unknown, cannot manage to find their way back to Sparta.  Agammemnon closed down our outpost at Tenedos to return home to Mycenae, but was murderously greeted there by his wife, Clytemnestra, and her lover.  
+@PAnd what of my sweet Odysseus?  I've heard so many rumors from the four corners of the world.  Some claim that they saw my husband in Libya, near the Land of the Lotus Eaters.  Perhaps he partook of the Lotus Eaters' strange fruit and has forgotten all about us?  Others claim that the Cyclopes are in an uproar over the actions of a Greek soldier named Noman.  This Noman couldn't be my Odysseus, could it?  I don't know what to make of all these stories, but at least it gives me the faintest hope that my husband is still alive.
+@PIf Odysseus cannot find us, maybe we can find him.  Establish a colony in some region distant from here and hope that our path crosses with Odysseus'.
+@PThank you again for your loyal attention to my needs.
+@L@LYours,
+@LPenelope"
+Parent_Episode_3_Title="Suitors, Suitors Everywhere"
+Parent_Episode_3_Introduction="My dear cousin,
+@PI am beginning to think that Poseidon is holding a grudge against my husband.  How else would you explain some of the latest rumors?  A merchant claims that Odysseus has taken up with the enchantress, Circe.  Certainly, if Odysseus had his free will, he wouldn't be spending time with another woman!  Then, there's the local fisherman who spotted my husband's ship on the horizon, only to have a fierce wind blow the ship far to the west.  Finally, a blind bard told a tale of cannibals destroying a small fleet of Greek ships that were on their way home from the great war.  Only the hand of Poseidon could push Odysseus into all of these treacherous situations!
+@PBy now, Odysseus' absence from Ithaca is well known throughout Greece, and most presume that he is dead.  Inevitably, hundreds upon hundreds of suitors have descended upon my home to pitch woo to me.  At first, it was a little flattering, I must admit, and my larders were more than capable of hosting Greece's nobility.  But now, as I look over the rooms of my home, I see nothing but an ocean of lay-abouts.  They have become loud and boorish, and I cannot possibly feed them all or provide them with enough wine.  If you prepare some lavish and well-stocked homes for these noblemen, it will stem the suitor tide until I can think of a more permanent solution.
+@L@LYours,
+@LPenelope"
+Parent_Episode_3_Complete="My dear cousin,
+@PNow that many of the suitors are lodged elsewhere, I've had more time to think.  I've come up with a plan to keep them at bay a little while longer.  I have sworn to these greedy men that I will pick one of them for my husband as soon as I finish weaving a burial shroud for old King Laertes, Odysseus' father.  Every day, I will make a grand show of weaving the shroud.  Then, under the cover of night, I will carefully unweave the day's work.  Hopefully, these fools won't catch on to my scheme.
+@PI hope Hermes protects you on your way to our new colony site.  Trouble abounds in our waters.  Word has reached me that the Sirens tried to thwart Odysseus in his journeys, but that he somehow overcame their sweet, deadly song.  Another seer reports that my husband was consulting Shades in the underworld.  My Odysseus certainly does get around, doesn't he?  I just wish he'd get around to coming home.
+@L@LYours,
+@LPenelope"
+Parent_Episode_4_Title="The Goddess' Advice"
+Parent_Episode_4_Introduction="My dear cousin,
+@PWhile you were gone, my little weaving plot reaped a double benefit!  Not only did it keep my suitors quiet, it also captured the attention of Athena.  Athena had been watching me take apart the shroud every night and was concerned that I was unclear on the concepts of weaving.  Since the craft is one of her many specialties, she decided to pay me a little visit to give me some pointers.
+@PWhile she was here, she proffered advice on my Odysseus' unfortunate situation.  She told me to send Telemachus, my son, to the other Greek kings who nobly fought along side Odysseus at Troy.  I have dispatched my boy to King Nestor at Pylos and to King Menelaus, who has finally left Egypt and wended his way back to Sparta after all this time.  Perhaps Telemachus will be able to uncover news about his father.  The goddess also confirmed my suspicions that Poseidon is responsible for Odysseus' troubles.  Poseidon has a score to settle with my husband, and I fear that the god of the sea may make life here in Ithaca rather unpleasant.
+@PTo thank Athena for her help, please arrange for the construction of her sacred Arbor.  It is the least that we can do.
+@PThe sooner Odysseus returns to Ithaca, the better.  While the suitors are satisfied for the moment that I am the slowest weaver in the world, their patience is beginning to wear thin.  Prepare some triremes to search for Odysseus and to clear his way home, before the swaggering blowhards become unruly.
+@L@LYours,
+@LPenelope"
+Parent_Episode_4_Complete="My dear cousin,
+@PThank you for summoning the heroic Perseus to rid our shores of the horrible Kraken.  It's good to see that some men of my husband's caliber still live in Greece, because I was beginning to have my doubts.  These opportunistic men who seek to take Odysseus' place are once again out of control.  Their leaders, Antinous of Same and Eurymachus of Olenus, wondering why I never needed an additional supply of fleece, unraveled my weaving scheme!  An angry outburst ensued, and the suitors demand that I choose a husband or face the consequences.  I can demure only a little longer - will my Odysseus ever come home?
+@L@LYours,
+@LPenelope"
+Parent_Episode_5_Title="The Hero Returns"
+Parent_Episode_5_Introduction="My dear cousin,
+@PMy excitement is growing!  My son, Telemachus, has sent word that his father had been kept captive by the nymph, Calypso, and that Zeus finally ordered her to let my husband go.  The nerve of that nymph!  Why can't she find her own man?  I want to thank Zeus for his help in releasing Odysseus from his bonds.  Please see to it that Zeus' Stronghold graces our city so that the master of Olympus knows how grateful I am.
+@PI have fabulous news indeed!  As I was writing this, I received an urgent message from Alcinous of Corcyra with the tidings for which we have all been waiting!  Odysseus has been found on the island, and Alcinous is seeing to it that my husband is finally returned to me.  He even offered to blindfold and bind my husband, lest his wandering ways get the best of him again.
+@PLet's quickly finish the preparations for his return, but let's not be naïve about the coming dangers.  All of the gods and monsters that Odysseus has angered on his long voyage are bound to follow him home, and the lollygaggers are likely to become quite destructive when they find out that my husband is alive.  Antinous of Same and Eurymachus of Olenus have already left in a huff, vowing to destroy Ithaca if they cannot call the city their own.  Our happiness must be tempered with caution.  We cannot rejoice until we can safeguard Ithaca from all threats, both natural and supernatural.
+@L@LYours,
+@LPenelope"
+Parent_Episode_5_Complete="My dear cousin,
+@PThis is a sweet day indeed!  My dear husband is back in my arms, and all who were threatening Ithaca have been summarily defeated.  I cannot thank you enough for your kind attention throughout this long ordeal, and I can assure you that Odysseus, too, is immeasurably grateful.  Without you, we would never have been able to send the suitors home with their collective tail between their collective legs.  And, Odysseus mentioned that the items with which you outfitted his Hero's Hall were just the things to help him fight the good fight.  
+@PThank you again.  Through your actions, you have carved a large place for yourself in my heart.
+@L@LYours,
+@LPenelope
+"
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="The Shepherd's Tale"
+Colony_1_Introduction="My dear cousin,
+@PI have received a request for help from Alcinous, king of the Phaecians.  He longs to break free from the tyranny of the Cyclopes and bring his peaceful people to a new land.  He has promised to help us look for Odysseus and to provide us with much-needed supplies if we build him a fine city.
+@PThe island of Corcyra is the perfect spot for the Phaecians.  Like their former masters, they are skilled shepherds and goatherds, and they are sure to make the most of the fertile meadow that graces the island.  Alcinous has also quite politely asked that we build Hephaestus' Forge in the new city.  Hephaestus has been kind to the Phaecians, and they wish to repay him.  I see no reason not to comply with their request.
+@PGood luck, and perhaps you will receive word from Odysseus in this outpost.
+@L@LYours,
+@LPenelope"
+Colony_1_Complete="My dear cousin,
+@PWith joy, I greeted your news that you found Odysseus.  With despair, I greeted the news that he has lost his way -- again.  Clearly, the ocean is not my husband's friend.  I can't believe that a huge tidal wave swept up my husband's ship and separated it from the rest of our fleet.  How could this happen?  Where could he be now?
+@PAlcinous has written me to tell me of the beauty of the city that you built for him, and your skill in helping to dispatch the Cyclops that followed the Phaecians to their new homeland.  He is immensely thankful for your services, as am I.
+I am looking forward to your return so we can address some of the problems facing Ithaca.  Leave good Alcinous in charge of Corcyra, and do not imitate my meandering husband.  Please hurry home.
+@L@LYours,
+@LPenelope"
+Colony_1_Selection="Corcyra's rich meadows are attractive...to shepherds of all shapes and sizes."
+Colony_2_Title="The Hero Errs"
+Colony_2_Introduction="My dear cousin,
+@PThe word from Thrinacia vexes and amazes me.  How can Odysseus be so smart and so stupid at the same time?  How could he be misguided enough to eat Hyperion's entire herd of sacred, magical cows?  Doesn't Odysseus know that he is sure to incur the wrath of Apollo, Hyperion's good friend?  Was there nothing else he could eat on that entire island?
+@PThen again, how could he be wise enough to navigate his ship through the straits of Messenia?  The narrow straits are flanked on one side by Scylla, the horrible multi-headed monster, and on the other by Charybdis, the swirling whirlpool that sends ships crashing to the ocean floor.  Which did he choose, and how did he manage to avoid what should have been a certain death?
+@PWhile you're in Thrinacia, you may as well establish a settlement.  If Odysseus has passed through the island once, perhaps he'll pass through again.  Please be careful, though.  I fear that Odysseus has made many enemies in his travels, and I worry that these enemies will take their revenge on us.  
+@L@LYours,
+@LPenelope"
+Colony_2_Complete="My dear cousin,
+@PYou have seen Odysseus!  My heart is leaping with joy!  But, curse his sense of honor!  I understand his need to honor his vow to properly bury his fallen comrade, but what about his vows to me?  Doesn't he know how eager I am to see him?  Oh, well.  No one ever said that being a hero's wife is easy.
+@PI'm glad that Odysseus came to kill that nasty Scylla.  You'd think it would be satisfied - Odysseus did feed it six strong, burly Greek soldiers so that he could sail his ship through the Straits of Messenia.  I guess it had a craving for more.  
+@PLeave Tydeus in charge of Thrinacia and hurry back to Ithaca.  I need your help here at home.
+@L@LYours,
+@LPenelope"
+Colony_2_Selection="The sweet lowing of Hyperion's magical cows echo through the air on Thrinacia.  Yet lately, the island has been oddly silent. "
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""
