@@ -793,19 +793,41 @@ def build_csw_handler(handler_va, globals_va):
     c += b'\x83\xC7\x0F'                      # add edi,15 (title char)
     csw_next_a2 = len(c)
     c += b'\xEB\x00'                          # jmp .next_ascii
-    # .normal_ascii:
+    # .normal_ascii: look up actual sprite advance width
     normal_ascii = len(c)
     c[csw_normal_ascii + 1] = normal_ascii - (csw_normal_ascii + 2)
-    c += b'\x3C\x20'                          # cmp al,0x20
-    c += b'\x75\x05'                          # jnz .not_space_csw
-    c += b'\x83\xC7\x06'                      # add edi,6 (space width)
-    c += b'\xEB\x03'                          # jmp .next_ascii
-    # .not_space_csw:
-    c += b'\x83\xC7\x07'                      # add edi,7 (avg ASCII width)
+
+    c += b'\x51'                              # push ecx
+    c += b'\x52'                              # push edx
+    # glyph_offset = glyph_table[char_code]
+    c += b'\x0F\xB6\xC8'                     # movzx ecx, al
+    c += b'\x0F\xB6\x89' + le32(0x63BE2C)   # movzx ecx, byte[0x63BE2C + ecx]
+    # sprite_index = font_base + glyph_offset
+    c += b'\x03\x4C\x24\x28'                 # add ecx, [esp+0x28] ; font_base (+8 for 2 pushes)
+    # records_base
+    c += b'\x8B\x15' + le32(SPRITE_RECORDS_PTR) # mov edx, [records_base]
+    c += b'\x85\xD2'                         # test edx, edx
+    csw_fb = len(c)
+    c += b'\x74\x00'                         # jz .fallback
+    # advance = sprite_records[sprite_index * 72 + 0x14]
+    c += b'\x6B\xC9\x48'                     # imul ecx, ecx, 72
+    c += b'\x0F\xBF\x4C\x0A\x14'            # movsx ecx, word[edx+ecx+0x14]
+    c += b'\x01\xCF'                         # add edi, ecx
+    c += b'\x5A'                             # pop edx
+    c += b'\x59'                             # pop ecx
+    csw_to_next = len(c)
+    c += b'\xEB\x00'                         # jmp .next_ascii (placeholder)
+    # .fallback: no records → use fixed 7px
+    csw_fallback = len(c)
+    c[csw_fb + 1] = csw_fallback - (csw_fb + 2)
+    c += b'\x5A'                             # pop edx
+    c += b'\x59'                             # pop ecx
+    c += b'\x83\xC7\x07'                     # add edi, 7 (fallback)
     # .next_ascii:
     next_ascii = len(c)
     c[csw_next_a1 + 1] = next_ascii - (csw_next_a1 + 2)
     c[csw_next_a2 + 1] = next_ascii - (csw_next_a2 + 2)
+    c[csw_to_next + 1] = next_ascii - (csw_to_next + 2)
     c += b'\x46'                              # inc esi
     c += b'\xEB' + struct.pack('b', calc_loop - (len(c) + 2))
 
